@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class TsetRequuestMappingHandler {
 	@RequestMapping(value= {"/hello","/hello2"},method= {RequestMethod.GET})
 	public String handle1() {
-		System.out.println("处理了请求");
+		System.out.println("麓娄脌铆脕脣脟毛脟贸");
+		System.out.println("麓娄脌铆脕脣脟毛脟贸");
 		return "scuss";
 	}
 }
